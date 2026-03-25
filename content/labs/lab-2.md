@@ -42,6 +42,7 @@ WorkspaceModel.hasMany(BookingModel, { foreignKey: 'workspace_id', as: 'bookings
 ```
 SubscriptionModel.belongsTo(UserModel, { foreignKey: 'user_id', as: 'user' });
 UserModel.hasMany(SubscriptionModel, { foreignKey: 'user_id', as: 'subscriptions' });
+```
 
 ### 3.4 Використання Sequelize
 ```
