@@ -162,7 +162,7 @@ export class UserService {
 ```
 
 ## 6 Створений API
-[!API](/assets/labs/lab-2/API.png)
+![API](/assets/labs/lab-2/API.png)
 **Рис. 4 - Створений API.**
 
 ---
@@ -178,11 +178,11 @@ npx tsx index.ts
 ```
 
 ### 6.2 Створення міграцій
-[!Migrations](/assets/labs/lab-2/CreateTable.png)
+![Migrations](/assets/labs/lab-2/CreateTable.png)
 **Рис. 5 - Створені міграції.**
 
 ### 6.3 Результат роботи
-[!StoreResult](/assets/labs/lab-2/StoreResult.png)
+![StoreResult](/assets/labs/lab-2/StoreResult.png)
 **Рис. 6 - Результат роботи.**
 
 ---
