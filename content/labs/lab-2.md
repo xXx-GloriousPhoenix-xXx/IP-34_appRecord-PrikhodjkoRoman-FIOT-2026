@@ -1,4 +1,4 @@
-## 1 Тема, Мета, Посилання
+## 1. Тема, Мета, Посилання
 
 ### 1.1 Тема
 Тема: «СТВОРЕННЯ БАЗИ ДАНИХ У MYSQL. ПІДКЛЮЧЕННЯ NODE.JS ДО MYSQL. РОБОТА З ORM SEQUELIZE».
@@ -91,7 +91,7 @@ UserModel.init(
 
 ---
 
-## 4 Зв'язок з БД
+## 4. Зв'язок з БД
 ```
 import 'dotenv/config';
 import { Sequelize } from 'sequelize';
@@ -110,7 +110,7 @@ export const sequelize = new Sequelize(process.env['DATABASE_URL']!, {
 
 ---
 
-## 5 Сервіс користувача
+## 5. Сервіс користувача
 ```
 import type { UserEntity } from '../entities/userEntity.js';
 import type { CreateUserModel } from '../models/createUserModel.js';
@@ -161,7 +161,7 @@ export class UserService {
 }
 ```
 
-## 6 Створений API
+## 6. Створений API
 ![API](/assets/labs/lab-2/API.png)
 **Рис. 4 - Створений API.**
 
@@ -169,7 +169,7 @@ export class UserService {
 
 ---
 
-## 7 Запуск застосунку
+## 7. Запуск застосунку
 
 ### 7.1 Початок роботи
 ```
@@ -187,7 +187,7 @@ npx tsx index.ts
 
 ---
 
-## 8 Висновки
+## 8. Висновки
 Під час виконання цієї лабораторної роботи було створено базу даних і налагоджено зв'язок застосунку з нею за допомогою ORM Sequalize
 
 ---
